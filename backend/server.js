@@ -18,9 +18,9 @@ const io = new Server(server, {
 app.use(cors());
 app.use(express.json());
 
-const PORT = 8690;
+const PORT = 8265;
 const TEAM_ID = "quantum_bitflip_0xDEAD";
-const MQTT_BROKER = "mqtt://157.173.101.159:1883";
+const MQTT_BROKER = "mqtt://broker.benax.rw:1883";
 const MONGO_URI = process.env.MONGODB_URI;
 
 // MongoDB Connection
@@ -131,7 +131,7 @@ mqttClient.on('message', async (topic, message) => {
       // We primarily use this as a device confirmation + UI update;
       // the database remains the single source of truth via safe wallet updates.
       io.emit('card-balance', payload);
-    } 
+    }
   } catch (err) {
     console.error('Failed to parse MQTT message or save card:', err);
   }
@@ -209,7 +209,7 @@ async function runWalletTransaction(operationName, fn) {
     ) {
       console.warn(
         `MongoDB deployment does not support transactions. Running wallet ${operationName} without a transaction. ` +
-          'For strict all-or-nothing guarantees, use a replica set (e.g. MongoDB Atlas cluster).'
+        'For strict all-or-nothing guarantees, use a replica set (e.g. MongoDB Atlas cluster).'
       );
       // Run the operation without a session; individual operations will still be
       // consistent, but cross-collection atomicity is not guaranteed.

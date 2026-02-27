@@ -1,6 +1,6 @@
-# EdgeWallet RFID Payment System
+# Wallet
 
-Live URL: http://157.173.101.159:9256/
+Live URL: http://157.173.101.159:9265/
 
 
 
@@ -95,12 +95,12 @@ npm start
 ### Access Points
 
 **Local Development:**
-- Frontend: http://localhost:8256
-- Backend API: http://localhost:8256
+- Frontend: http://localhost:9265
+- Backend API: http://localhost:8265
 
 **Production (VPS):**
-- Frontend: http://157.173.101.159:8256
-- Backend API: http://157.173.101.159:9256
+- Frontend: http://157.173.101.159:9265
+- Backend API: http://157.173.101.159:8265
 
 ---
 

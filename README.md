@@ -1,6 +1,6 @@
 # Wallet
 
-Live URL: http://157.173.101.159:9265/
+Live URL: http://157.173.101.159:8247/
 
 
 
@@ -95,12 +95,12 @@ npm start
 ### Access Points
 
 **Local Development:**
-- Frontend: http://localhost:9265
-- Backend API: http://localhost:8265
+- Frontend: http://localhost:9247
+- Backend API: http://localhost:8247
 
 **Production (VPS):**
-- Frontend: http://157.173.101.159:9265
-- Backend API: http://157.173.101.159:8265
+- Frontend: http://157.173.101.159:9247
+- Backend API: http://157.173.101.159:8247
 
 ---
 
@@ -235,7 +235,7 @@ No events are sent from client to server.
 {
   uid: "A1B2C3D4",
   balance: 500,
-  holderName: "NIYOBYOSE Isaac Precieux",
+  holderName: "KAYINAMURA Geofrey",
   timestamp: "2026-02-12T10:30:00Z"
 }
 ```
@@ -633,9 +633,14 @@ For issues or questions:
 
 **Built with ❤️ for IoT Education**
 "# Wallet" 
-#   S m a r t _ P a y m e n t -  
- #   S m a r t _ P a y m e n t -  
- #   S m a r t _ P a y m e n t -  
- #   S m a r t _ P a y m e n t -  
- #   S m a r t _ P a y m e n t -  
+#   S m a r t _ P a y m e n t - 
+ 
+ #   S m a r t _ P a y m e n t - 
+ 
+ #   S m a r t _ P a y m e n t - 
+ 
+ #   S m a r t _ P a y m e n t - 
+ 
+ #   S m a r t _ P a y m e n t - 
+ 
  

@@ -163,8 +163,8 @@ PORT=8256
 
 The frontend **automatically detects** the environment:
 
-- **Development**: Uses `http://localhost:8256`
-- **Production**: Uses `http://157.173.101.159:8256`
+- **Development**: Uses `http://localhost:8247`
+- **Production**: Uses `http://157.173.101.159:8247`
 
 No manual configuration required! The system detects whether you're running locally or on the VPS.
 
@@ -188,7 +188,7 @@ Returns details for a specific card by UID.
 
 **Example:**
 ```bash
-curl http://localhost:8256/card/A1B2C3D4
+curl http://localhost:8247/card/A1B2C3D4
 ```
 
 #### Top Up Card

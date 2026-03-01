@@ -520,7 +520,7 @@ sudo systemctl status mosquitto
 ### Frontend Issues
 
 **Problem: Can't connect to backend**
-- Verify backend is running: `curl http://localhost:8256/cards`
+- Verify backend is running: `curl http://localhost:8247/cards`
 - Check browser console for errors (F12)
 - Ensure ports 8208 and 9208 are not blocked
 
